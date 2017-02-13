@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SpeechManager_Example' do
+  pod 'SpeechManager', :path => '../'
+
+  target 'SpeechManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
