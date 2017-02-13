@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		033206B6D24CD0A15E15690E3CBCAAB8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6CB233E43960E095F9FBC2BD7D2CC /* ReplaceMe.swift */; };
+		0E0ACED5C8573BE57542D521CE4566B3 /* SpeechManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E1293D5F97CA9F20090A8DC67180BF /* SpeechManager-dummy.m */; };
 		0F899DE639B9CD2F611319782C6E30B6 /* Pods-SpeechManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63035A973626469EA2105D93ABAB81B2 /* Pods-SpeechManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FCC6F3DE9BCE23FC973688DDE909951 /* Pods-SpeechManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DADDD01061B0F6038C5F3CA9953D30 /* Pods-SpeechManager_Tests-dummy.m */; };
 		12C15621DD917E098BC070C21ECC6E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3C0F4BD705D93B86DC2620B847F1DE10 /* Pods-SpeechManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAD3BCB118C3FD9124ED419DC6045C1 /* Pods-SpeechManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47136ACE6A45749228773828B8725066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		4B5A1475257BC6D6FF19756F1343FD65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		713C69FD7719ACADBAB7B4CA353621E7 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A9FA8696CE768DFF1DAD8FAD3B10B9 /* SpeechManager.swift */; };
 		CB02A594BDAD691ABBDDD86172BA72BE /* SpeechManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D3BB4DE111CDD6F633CE333F17D9F56 /* SpeechManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD731DE0DE5EEB9E672EC127A500622A /* Pods-SpeechManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5137B0C2B784EA262E0FC96FD231CA /* Pods-SpeechManager_Example-dummy.m */; };
-		F476421CDFB797A165131308DDB46072 /* SpeechManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E1293D5F97CA9F20090A8DC67180BF /* SpeechManager-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,26 +39,26 @@
 		3FFEC0924233D172A32DC94AB49C9388 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D3BB4DE111CDD6F633CE333F17D9F56 /* SpeechManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpeechManager-umbrella.h"; sourceTree = "<group>"; };
 		53EAC3B5B3B06E0F77C7BC0B985FF9C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A9FA8696CE768DFF1DAD8FAD3B10B9 /* SpeechManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 		5CAF79500C3575ED4DB4351C502DFC2C /* Pods-SpeechManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeechManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		63035A973626469EA2105D93ABAB81B2 /* Pods-SpeechManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpeechManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		6A4F780CC49C4766397D5DEC8F5948E7 /* Pods_SpeechManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4F780CC49C4766397D5DEC8F5948E7 /* Pods_SpeechManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpeechManager_Example.framework; path = "Pods-SpeechManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		781E69B3CDCFA4663B6216EDFDBC35EC /* SpeechManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpeechManager.xcconfig; sourceTree = "<group>"; };
 		7F413997F3768A4CAC3824FFE8C43363 /* Pods-SpeechManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeechManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		837B9C9163131F2A2750945DD9269E75 /* SpeechManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpeechManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8675E3C1A28A7CA81D2F9719849C62D0 /* Pods-SpeechManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpeechManager_Tests.modulemap"; sourceTree = "<group>"; };
-		8880CEBA0CE8C70E65253545A137AA31 /* Pods_SpeechManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		837B9C9163131F2A2750945DD9269E75 /* SpeechManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpeechManager.framework; path = SpeechManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8675E3C1A28A7CA81D2F9719849C62D0 /* Pods-SpeechManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SpeechManager_Tests.modulemap"; sourceTree = "<group>"; };
+		8880CEBA0CE8C70E65253545A137AA31 /* Pods_SpeechManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpeechManager_Tests.framework; path = "Pods-SpeechManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5D6F0EA09426AD782024256B93322EA /* Pods-SpeechManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeechManager_Example-resources.sh"; sourceTree = "<group>"; };
 		A61391C09BBF1C68149D35EB5BE0461F /* Pods-SpeechManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeechManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A9DADDD01061B0F6038C5F3CA9953D30 /* Pods-SpeechManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpeechManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		ADE6CB233E43960E095F9FBC2BD7D2CC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		BEAD3BCB118C3FD9124ED419DC6045C1 /* Pods-SpeechManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpeechManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C08597044E83B84AFFD733AAE28044EC /* Pods-SpeechManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeechManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8E0A1D646A99C3D5247CC964218448E /* Pods-SpeechManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpeechManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D40ACE0C146384275364595C4BC72B12 /* Pods-SpeechManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpeechManager_Example.modulemap"; sourceTree = "<group>"; };
+		D40ACE0C146384275364595C4BC72B12 /* Pods-SpeechManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SpeechManager_Example.modulemap"; sourceTree = "<group>"; };
 		D5B9908E7A45A8B6CB931E98F8E55E49 /* Pods-SpeechManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeechManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D9AFD57BE1E0070E59C67FC3E44B99E0 /* SpeechManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SpeechManager.modulemap; sourceTree = "<group>"; };
+		D9AFD57BE1E0070E59C67FC3E44B99E0 /* SpeechManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SpeechManager.modulemap; sourceTree = "<group>"; };
 		ED265A1B93B089D06C3D8BB7C070EB6E /* Pods-SpeechManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpeechManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F8364DCC177B8B2595145055D5F4BAD1 /* SpeechManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpeechManager-prefix.pch"; sourceTree = "<group>"; };
 		FA5137B0C2B784EA262E0FC96FD231CA /* Pods-SpeechManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpeechManager_Example-dummy.m"; sourceTree = "<group>"; };
@@ -108,14 +108,6 @@
 			);
 			name = "Pods-SpeechManager_Tests";
 			path = "Target Support Files/Pods-SpeechManager_Tests";
-			sourceTree = "<group>";
-		};
-		1345C83E59E56A42D94FE674F1AC147B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				ADE6CB233E43960E095F9FBC2BD7D2CC /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		228601F3D2143B5891BB54EA5F100CBE /* Support Files */ = {
@@ -217,9 +209,19 @@
 		CD75DF3382AD71D672CBD0B894C0557D /* SpeechManager */ = {
 			isa = PBXGroup;
 			children = (
-				1345C83E59E56A42D94FE674F1AC147B /* Classes */,
+				F6E7C3A082AC8956F0BF44ABA0800870 /* Classes */,
 			);
+			name = SpeechManager;
 			path = SpeechManager;
+			sourceTree = "<group>";
+		};
+		F6E7C3A082AC8956F0BF44ABA0800870 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				58A9FA8696CE768DFF1DAD8FAD3B10B9 /* SpeechManager.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6B481BDA650BACF7502939B455019F9 /* Build configuration list for PBXNativeTarget "SpeechManager" */;
 			buildPhases = (
-				4F7E76A1F082AAFBE21F38E1D750F5C1 /* Sources */,
+				78013773A55F9B6A15166245A96DB6F0 /* Sources */,
 				BEEC852402B96379D611CE460DDB16A7 /* Frameworks */,
 				EA625E73349F8E8F9E97DFD75193A9EC /* Headers */,
 			);
@@ -312,14 +314,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					6A0F7BDA52882BA643FE0B2133B8C5CE = {
-						LastSwiftMigration = 0820;
-					};
-					BC7A7D9F03F535C0B8189598702AD97D = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,12 +335,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F7E76A1F082AAFBE21F38E1D750F5C1 /* Sources */ = {
+		78013773A55F9B6A15166245A96DB6F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				033206B6D24CD0A15E15690E3CBCAAB8 /* ReplaceMe.swift in Sources */,
-				F476421CDFB797A165131308DDB46072 /* SpeechManager-dummy.m in Sources */,
+				0E0ACED5C8573BE57542D521CE4566B3 /* SpeechManager-dummy.m in Sources */,
+				713C69FD7719ACADBAB7B4CA353621E7 /* SpeechManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +372,39 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		10C43EE21EA72344D3BCB9E58BF4EC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781E69B3CDCFA4663B6216EDFDBC35EC /* SpeechManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpeechManager/SpeechManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpeechManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpeechManager/SpeechManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SpeechManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		129836A37E0618385AC89B4C14E05F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5B9908E7A45A8B6CB931E98F8E55E49 /* Pods-SpeechManager_Example.debug.xcconfig */;
@@ -408,12 +435,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		2EFA039F803DE9981F0CE55BE99AC4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781E69B3CDCFA4663B6216EDFDBC35EC /* SpeechManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpeechManager/SpeechManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpeechManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpeechManager/SpeechManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SpeechManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		86D10D6AF43517B9FB3B12EAB411DB79 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -569,71 +627,6 @@
 			};
 			name = Release;
 		};
-		AA3D8189FB839C6BE2673B4D9BFA08FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781E69B3CDCFA4663B6216EDFDBC35EC /* SpeechManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SpeechManager/SpeechManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SpeechManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SpeechManager/SpeechManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SpeechManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AD5D40D56432E298D0C92B324A5E5B8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781E69B3CDCFA4663B6216EDFDBC35EC /* SpeechManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SpeechManager/SpeechManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SpeechManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SpeechManager/SpeechManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SpeechManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		ECDCB503BE9D774450FAD9A9B8C5D270 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C08597044E83B84AFFD733AAE28044EC /* Pods-SpeechManager_Example.release.xcconfig */;
@@ -663,7 +656,6 @@
 				PRODUCT_NAME = Pods_SpeechManager_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -703,8 +695,8 @@
 		C6B481BDA650BACF7502939B455019F9 /* Build configuration list for PBXNativeTarget "SpeechManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA3D8189FB839C6BE2673B4D9BFA08FC /* Debug */,
-				AD5D40D56432E298D0C92B324A5E5B8F /* Release */,
+				10C43EE21EA72344D3BCB9E58BF4EC3D /* Debug */,
+				2EFA039F803DE9981F0CE55BE99AC4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

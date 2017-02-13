@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		81CB068AC86993E18E968BC2 /* Pods_SpeechManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D542075347B343FF3D5466 /* Pods_SpeechManager_Example.framework */; };
+		BDA468C11E51CAE50096C46C /* Akon_Freedom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA468C01E51CAE50096C46C /* Akon_Freedom.mp3 */; };
 		C69DB3CCAAC7283E8FAF120B /* Pods_SpeechManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DBEF71FA6B0296DF71B6D /* Pods_SpeechManager_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		6676F3A20EF134D2FB6AB217 /* Pods-SpeechManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechManager_Example/Pods-SpeechManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		769EEB4B55351450CCF84F06 /* SpeechManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpeechManager.podspec; path = ../SpeechManager.podspec; sourceTree = "<group>"; };
 		84D542075347B343FF3D5466 /* Pods_SpeechManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA468C01E51CAE50096C46C /* Akon_Freedom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Akon_Freedom.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for SpeechManager */ = {
 			isa = PBXGroup;
 			children = (
+				BDA468C01E51CAE50096C46C /* Akon_Freedom.mp3 */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA468C11E51CAE50096C46C /* Akon_Freedom.mp3 in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

@@ -7,13 +7,25 @@
 //
 
 import UIKit
+import SpeechManager
 
+@available(iOS 10.0, *)
 class ViewController: UIViewController {
+  
+   @IBOutlet weak var IBtxt: UITextView!
+   @IBOutlet weak var IBbtnRecord: UIButton!
+    let manager = SpeechManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        IBbtnRecord.isEnabled = manager.requestForPermission()
     }
+  
+  
+  @IBAction func funcBtnDisplayData(_ sender: UIButton) {
+    IBtxt.text = manager.displayUrlContent("Akon_Freedom", fileExtension: "mp3")
+  }
+  
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
