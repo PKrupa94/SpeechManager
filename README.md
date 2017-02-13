@@ -19,7 +19,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "SpeechManager"
 ```
-
 ## Author
 
 PKrupa94, krupa.patel@solutionanalysts.com
