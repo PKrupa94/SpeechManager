@@ -1,0 +1,16 @@
+PODS:
+  - SpeechManager (0.1.0)
+
+DEPENDENCIES:
+  - SpeechManager (from `../`)
+
+EXTERNAL SOURCES:
+  SpeechManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SpeechManager: 36d94f4960f371a6e27ff395eedfc7881b3ba9e0
+
+PODFILE CHECKSUM: 4b7433c72dcbc016bf40a6e74f66df856f7efdeb
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module SpeechManager {
+  umbrella header "SpeechManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
